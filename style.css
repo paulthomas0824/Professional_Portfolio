@@ -51,7 +51,7 @@ section {
 }
 
 .intro {
-  background: url('/assets/images/profile_pic.jpg') no-repeat center center fixed;
+  background: url('./assets/images/profile_pic.jpg') no-repeat center center fixed;
   background-size: cover;
   height: calc(100vh - 5rem);
   display: flex;
