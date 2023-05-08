@@ -61,7 +61,11 @@ section {
   color: #fff;
   text-align: center;
 }
-
+@media (min-width: 768px) {
+  .intro {
+    background-attachment: fixed;
+  }
+}
 .intro h1 {
   font-size: 4rem;
 }
