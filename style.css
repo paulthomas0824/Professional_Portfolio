@@ -66,6 +66,12 @@ section {
     background-attachment: fixed;
   }
 }
+@media (max-width: 480px) {
+  .intro {
+    height: calc(100vh - 3.5rem); /* Adjust the height to accommodate smaller screens */
+    padding: 1rem; /* Add some padding around the content */
+  }
+}
 .intro h1 {
   font-size: 4rem;
 }
