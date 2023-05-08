@@ -3,41 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="/assets/style.css">
   <script defer src="script.js"></script>
-  <title>Portfolio</title>
+  <title>Pauls Portfolio</title>
 </head>
 <body>
-    <header>
-        <nav>
-          <a href="#home" class="nav-link">Home</a>
-          <a href="#about" class="nav-link">About</a>
-          <a href="#projects" class="nav-link">Projects</a>
-          <a href="#contact" class="nav-link">Contact</a>
-        </nav>
-      </header>
+  <header>
+    <nav>
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="intro">
+        <h1>Paul Thomas</h1>
+        <p>Data Analyst</p>
+      </div>
+    </section>
+
+    <section id="about" class="centered">
+        <h2>About</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Hello, I'm Paul Thomas!</h3>
+            <p>I am a data analyst with a strong background in computer science and information systems. I hold a master's degree in Information Systems and a bachelor's degree in Computer Science. My experience spans various industries, where I've been able to provide valuable insights and drive data-driven decision-making.</p>
+            <p>My passion lies in the field of Data Science, and I'm constantly learning and honing my skills in this area. I enjoy applying advanced analytics techniques and machine learning algorithms to uncover hidden patterns and insights from complex data sets.</p>
+            <p>When I'm not working with data, I love spending time with my family, traveling, and exploring the great outdoors.</p>
+          </div>
+          <div class="about-image">
+            <img src="/assets/images/background.jpg" alt="Your Name" class="profile-picture">
+          </div>
+        </div>
+        <div class="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>Data Analysis</li>
+            <li>Data Visualization</li>
+            <li>Machine Learning</li>
+            <li>Python</li>
+            <li>R</li>
+            <li>SQL</li>
+            <li>Big Data</li>
+            <li>Statistical Modeling</li>
+          </ul>
+        </div>
+
+        <div class="pdf-files">
+            <h3>Here Are My Transcipts</h3>
+            <ul>
+              <li>
+                <a href="/assets/pdfs/UMHBMSIS_Transcipt.pdf" target="_blank">
+                  <img src="/assets/images/UMHBMSIS.jpg" alt="Pauls MSIS Transcipt">
+                  <span>Masters Degree Transcipt</span>
+                </a>
+              </li>
+              <li>
+                <a href="/assets/pdfs/UMHBCS_Transcript.pdf" target="_blank">
+                  <img src="/assets/images/UMHBCS.jpg" alt="Pauls CS Transcipt">
+                  <span>Bachelors Degree Transcipt</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume">
+            <h3>Download My Resume</h3>
+            <a href="/assets/pdfs/Resume.pdf" download>
+              <img src="/assets/images/Resume.jpg" alt="Resume Thumbnail">
+              <span>Download Resume</span>
+            </a>
+          </div>
+          
+
+      </section>
       
-      <main>
-        <section id="home">
-          <!-- Add your intro content here -->
-        </section>
       
-        <section id="about">
-          <!-- Add your about content here -->
-        </section>
-      
-        <section id="projects">
-          <!-- Add your projects content here -->
-        </section>
-      
-        <section id="contact">
-          <!-- Add your contact content here -->
-        </section>
-      </main>
-      
-      <footer>
-        <!-- Add your footer content here -->
-      </footer>      
- 
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-content">
+        <!-- Add your projects content here -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-content">
+        <!-- Add your contact content here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="#" class="fab fa-github"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+      <a href="#" class="fab fa-twitter"></a>
+    </div>
+  </footer>
 </body>
 </html>
